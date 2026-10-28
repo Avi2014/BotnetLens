@@ -1,0 +1,6 @@
+duration,src_bytes,dst_bytes,total_bytes,total_packets,proto,state,src_port,dst_port
+0.254,1200,800,2000,15,tcp,SF,49231,443
+1.802,300,100,400,6,udp,S0,51000,53
+0.012,50000,0,50000,500,udp,S0,54321,80
+5.231,180,120,300,4,tcp,SF,55001,6667
+0.183,3200,400,3600,25,tcp,REJ,48000,22

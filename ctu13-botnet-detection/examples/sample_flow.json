@@ -1,0 +1,14 @@
+{
+  "duration": 1.256,
+  "src_bytes": 480.0,
+  "dst_bytes": 320.0,
+  "total_bytes": 800.0,
+  "total_packets": 8,
+  "proto": "tcp",
+  "state": "SF",
+  "src_port": 51234,
+  "dst_port": 80,
+  "direction": "->",
+  "src_tos": 0,
+  "dst_tos": 0
+}

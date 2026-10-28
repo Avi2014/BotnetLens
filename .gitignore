@@ -1,0 +1,54 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scratch & prompt files
+prompt.txt
+transcript.txt
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Large dataset files & models
+*.pcap
+*.binetflow
+*.csv.gz
+*.tar.gz
+*.zip
+*.parquet
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.log
+
+# Project subfolder gitignore rules
+ctu13-botnet-detection/data/raw/**
+ctu13-botnet-detection/data/interim/**
+ctu13-botnet-detection/data/processed/**
+ctu13-botnet-detection/data/splits/**
+!ctu13-botnet-detection/data/**/.gitkeep
+!ctu13-botnet-detection/data/**/README.md
+
+ctu13-botnet-detection/models/**/*.joblib
+ctu13-botnet-detection/models/**/*.pkl
+!ctu13-botnet-detection/models/**/.gitkeep
+
+ctu13-botnet-detection/reports/**/*.log
+ctu13-botnet-detection/reports/**/*.png
+ctu13-botnet-detection/reports/**/*.csv
+ctu13-botnet-detection/reports/**/*.json
+!ctu13-botnet-detection/reports/**/.gitkeep
+
+
+*.txt

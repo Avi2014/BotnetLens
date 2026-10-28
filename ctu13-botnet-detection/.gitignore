@@ -1,0 +1,129 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Datasets & Large Data Files (DO NOT PUSH TO GITHUB - >100MB limit)
+# ==============================================================================
+data/raw/**
+data/interim/**
+data/processed/**
+data/splits/**
+data/*.csv
+data/**/*.csv
+!data/**/.gitkeep
+!data/**/README.md
+
+# Large dataset extensions anywhere in repo
+*.pcap
+*.binetflow
+*.csv.gz
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.parquet
+*.feather
+
+# ==============================================================================
+# Trained Model Weights & Preprocessors (>100MB Random Forest / LightGBM)
+# ==============================================================================
+models/*.joblib
+models/**/*.joblib
+models/*.pkl
+models/**/*.pkl
+models/*.pickle
+models/**/*.pickle
+models/*.pt
+models/**/*.pt
+models/*.pth
+models/**/*.pth
+models/*.onnx
+models/**/*.onnx
+models/*.h5
+models/**/*.h5
+models/*.model
+models/**/*.model
+models/*.bin
+models/**/*.bin
+models/*.safetensors
+models/**/*.safetensors
+!models/**/.gitkeep
+!models/**/README.md
+
+# ==============================================================================
+# Execution Logs & Generated Reports
+# ==============================================================================
+*.log
+reports/*.log
+reports/**/*.log
+reports/*.png
+reports/**/*.png
+reports/*.csv
+reports/**/*.csv
+reports/*.json
+reports/**/*.json
+!reports/**/.gitkeep
+!reports/**/README.md
+
+# ==============================================================================
+# Testing & Code Quality
+# ==============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# Jupyter Notebook Checkpoints
+# ==============================================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==============================================================================
+# Secrets, Credentials & Local Environment
+# ==============================================================================
+.env
+.env.*
+!.env.example
+secrets.json
+
+# ==============================================================================
+# Operating System & IDE Specific
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

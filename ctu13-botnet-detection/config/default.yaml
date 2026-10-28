@@ -1,0 +1,60 @@
+holdout_family: "NsisAy"
+
+data:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  ctu13_subdir: "CTU-13-Dataset"
+
+features:
+  ubf_features:
+    - duration
+    - src_bytes
+    - dst_bytes
+    - total_bytes
+    - total_packets
+    - bytes_per_second
+    - packets_per_second
+    - bytes_ratio
+    - mean_packet_size
+    - src_mean_packet_size
+    - proto_tcp
+    - proto_udp
+    - proto_icmp
+    - state_SF
+    - state_S0
+    - state_REJ
+  epsilon: 1.0e-9
+
+splitting:
+  strategy: "scenario_aware"   # options: random, scenario_aware, family_holdout
+  test_size: 0.20
+  validation_size: 0.10
+  random_seed: 42
+
+phase1:
+  algorithms:
+    - random_forest
+    - xgboost
+    - lightgbm
+    - logistic_regression
+    - linear_svm
+    - mlp
+  n_jobs: -1
+  random_seed: 42
+
+phase2:
+  detectors:
+    - isolation_forest
+    - one_class_svm
+    - local_outlier_factor
+  contamination: 0.05
+  fpr_targets: [0.001, 0.005, 0.01, 0.05]
+  random_seed: 42
+
+reporting:
+  dpi: 150
+  fig_width: 12
+  fig_height: 8
+  font_size: 12

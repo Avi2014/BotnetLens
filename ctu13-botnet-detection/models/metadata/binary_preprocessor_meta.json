@@ -1,0 +1,24 @@
+{
+  "name": "binary",
+  "scaler_type": "robust",
+  "feature_names": [
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "total_bytes",
+    "total_packets",
+    "bytes_per_second",
+    "packets_per_second",
+    "bytes_ratio",
+    "mean_packet_size",
+    "src_mean_packet_size",
+    "proto_tcp",
+    "proto_udp",
+    "proto_icmp",
+    "state_SF",
+    "state_S0",
+    "state_REJ"
+  ],
+  "n_features": 16,
+  "fitted": true
+}
