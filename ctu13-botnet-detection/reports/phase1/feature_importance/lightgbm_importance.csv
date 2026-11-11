@@ -1,0 +1,17 @@
+feature,importance
+dst_bytes,805
+src_bytes,799
+bytes_ratio,792
+mean_packet_size,775
+src_mean_packet_size,621
+duration,590
+total_bytes,413
+packets_per_second,403
+total_packets,335
+bytes_per_second,293
+proto_tcp,79
+proto_udp,51
+proto_icmp,44
+state_SF,0
+state_S0,0
+state_REJ,0

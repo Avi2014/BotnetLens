@@ -1,0 +1,6 @@
+timestamp,phase1_binary_prediction,phase1_binary_confidence,phase1_family_prediction,phase1_family_confidence,phase1_decision,phase2_executed,phase2_prediction,phase2_anomaly_score,phase2_threshold,final_label,final_category,explanation
+2026-10-19T15:50:08.761001+00:00,Benign,1.0,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.392539,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.3925).
+2026-10-19T15:50:09.162179+00:00,Benign,1.0,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.369298,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.3693).
+2026-10-19T15:50:09.508502+00:00,Benign,1.0,,,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.62279,0.0,Suspicious,NOVEL_BEHAVIOR,Phase 1 inconclusive (conf=1.0000). Phase 2 flagged as anomalous (score=-0.6228).
+2026-10-19T15:50:09.809392+00:00,Benign,1.0,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.384371,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.3844).
+2026-10-19T15:50:10.135359+00:00,Benign,1.0,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.433254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4333).

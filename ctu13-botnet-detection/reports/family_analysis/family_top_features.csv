@@ -1,0 +1,8 @@
+family,n_samples,top_features,top_scores
+Menti,4630,"['proto_tcp', 'duration', 'bytes_ratio', 'dst_bytes', 'src_mean_packet_size']","[1.0, 0.9816, 0.7043, 0.5612, 0.4023]"
+Murlo,6127,"['packets_per_second', 'bytes_per_second', 'total_packets', 'proto_tcp', 'bytes_ratio']","[107031.6172, 50712.5156, 1.0, 1.0, 0.7038]"
+Neris,246889,"['proto_udp', 'dst_bytes', 'bytes_ratio', 'total_bytes', 'src_bytes']","[1.0, 0.6111, 0.3718, 0.1291, 0.1107]"
+NsisAy,2168,"['duration', 'proto_udp', 'src_mean_packet_size', 'dst_bytes', 'total_bytes']","[1.766, 1.0, 0.5976, 0.5, 0.1667]"
+Rbot,143918,"['proto_icmp', 'bytes_per_second', 'packets_per_second', 'src_mean_packet_size', 'mean_packet_size']","[1000000000.0, 1335458.75, 180091.9688, 39.4423, 9.402]"
+Sogou,63,"['total_packets', 'duration', 'dst_bytes', 'proto_tcp', 'total_bytes']","[7.0, 1.4977, 1.3149, 1.0, 0.8007]"
+Virut,40904,"['total_packets', 'proto_tcp', 'duration', 'src_mean_packet_size', 'mean_packet_size']","[4.0, 1.0, 0.4404, 0.3526, 0.2745]"

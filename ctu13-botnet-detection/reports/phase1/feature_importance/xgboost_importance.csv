@@ -1,0 +1,17 @@
+feature,importance
+proto_udp,0.49876815
+dst_bytes,0.16222945
+bytes_ratio,0.06609703
+mean_packet_size,0.05399728
+src_bytes,0.044940248
+packets_per_second,0.036532525
+total_bytes,0.034598846
+src_mean_packet_size,0.031832818
+proto_tcp,0.02668615
+duration,0.01673916
+bytes_per_second,0.016489726
+total_packets,0.009109334
+proto_icmp,0.0019792246
+state_SF,0.0
+state_S0,0.0
+state_REJ,0.0

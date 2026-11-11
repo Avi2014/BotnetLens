@@ -75,12 +75,45 @@ reports/*.log
 reports/**/*.log
 reports/*.png
 reports/**/*.png
-reports/*.csv
-reports/**/*.csv
+# CSV reports are tracked — small result files for team sharing
+# !reports/*.csv        <- unblocked below
+# !reports/**/*.csv     <- unblocked below
 reports/*.json
 reports/**/*.json
 !reports/**/.gitkeep
 !reports/**/README.md
+
+# ------ Tracked report CSVs (all well under 2 MB) ------
+!reports/phase1/binary_results_all_algorithms.csv
+!reports/phase1/multiclass_results_all_algorithms.csv
+!reports/phase2/anomaly_results_all_algorithms.csv
+!reports/phase1/feature_importance/random_forest_importance.csv
+!reports/phase1/feature_importance/xgboost_importance.csv
+!reports/phase1/feature_importance/lightgbm_importance.csv
+!reports/cascade/holdout_inference_results.csv
+!reports/cascade_sample_output.csv
+!reports/dataset/cleaning_log.csv
+!reports/dataset/data_quality_summary.csv
+!reports/dataset/label_mapping.csv
+!reports/family_analysis/family_feature_signatures.csv
+!reports/family_analysis/family_top_features.csv
+!reports/injection/injection_sweep_results.csv
+!reports/live/live_detections.csv
+# injection per-run predictions (each ~1.25 MB, 11 files total)
+!reports/injection/run_000pct_predictions.csv
+!reports/injection/run_010pct_predictions.csv
+!reports/injection/run_020pct_predictions.csv
+!reports/injection/run_030pct_predictions.csv
+!reports/injection/run_040pct_predictions.csv
+!reports/injection/run_050pct_predictions.csv
+!reports/injection/run_060pct_predictions.csv
+!reports/injection/run_070pct_predictions.csv
+!reports/injection/run_080pct_predictions.csv
+!reports/injection/run_090pct_predictions.csv
+!reports/injection/run_100pct_predictions.csv
+
+# ------ Tracked example CSVs ------
+!examples/sample_batch.csv
 
 # ==============================================================================
 # Testing & Code Quality
