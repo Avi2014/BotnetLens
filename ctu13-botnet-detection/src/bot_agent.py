@@ -48,72 +48,89 @@ def log(tag: str, msg: str):
 
 # ── single bot session ───────────────────────────────────────────────────────
 def run_bot(bot_id: int, cc_host: str, cc_port: int):
-    """Simulates one Neris bot connecting to C&C and sending heartbeats."""
+    """
+    Simulates one Neris bot with REALISTIC flow statistics matching CTU-13.
+
+    Real Neris C2 (port 6667) profile from CTU-13 analysis:
+      - Duration  : median 3.0s  (1–5s range)
+      - Packets   : median 2     (mostly 2–5)
+      - Src bytes : median 124   (100–200 byte range, 87% of flows)
+      - Dst bytes : median 0     (server rarely replies much)
+      - State     : S_ (73%) = failed/no reply,  S_RA (22%) = RST,  FSPA (2.5%) = complete
+
+    Strategy: many SHORT burst connections (not one long persistent session).
+    Each call opens, sends 1–3 small messages, reads brief reply, closes.
+    Also fires occasional RST-generating probes to match S_RA state flows.
+    """
     nick = f"bot{bot_id:03d}"
-    channel = "#update"     # Neris bots join this kind of channel
+    channel = "#update"
 
     while not _stop.is_set():
+        # ── A. Main C&C burst connection (FSPA_FSPA state) ──────────────────
+        sock = None
         try:
-            log(nick, f"Connecting to C&C at {cc_host}:{cc_port} ...")
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            sock.settimeout(10)
+            sock.settimeout(5)
             sock.connect((cc_host, cc_port))
-            sock.settimeout(None)
 
-            # IRC registration — exactly like Neris bot behaviour
-            sock.sendall(f"NICK {nick}\r\n".encode())
-            sock.sendall(f"USER {nick} 0 * :BotAgent\r\n".encode())
-            time.sleep(1)
-            sock.sendall(f"JOIN {channel}\r\n".encode())
-            log(nick, f"Connected and joined {channel} ✓")
+            # IRC registration — keep payload small (target: 100–200 src bytes)
+            reg = (f"NICK {nick}\r\n"
+                   f"USER {nick} 0 * :N\r\n"
+                   f"JOIN {channel}\r\n").encode()          # ~50 bytes
+            sock.sendall(reg)
 
-            # Heartbeat loop
-            last_ping = time.time()
-            buf = ""
-            while not _stop.is_set():
-                # Send PING heartbeat every HEARTBEAT_INT seconds
-                if time.time() - last_ping >= HEARTBEAT_INT:
-                    sock.sendall(f"PING :cc-server\r\n".encode())
-                    log(nick, f"→ PING (heartbeat)")
-                    last_ping = time.time()
+            # 1–3 small PRIVMSG bursts (each ~40–80 bytes)
+            n_msgs = random.randint(1, 3)
+            for _ in range(n_msgs):
+                payload_len = random.randint(20, 60)
+                msg = f"PRIVMSG {channel} :{'A' * payload_len}\r\n".encode()
+                sock.sendall(msg)
+                time.sleep(random.uniform(0.3, 1.2))       # stay in 1–5s window
 
-                # Small data burst to simulate C&C command exchange
-                # Neris sends small fixed-size payloads (100–400 bytes)
-                payload_size = random.randint(100, 400)
-                dummy_payload = "A" * payload_size
-                try:
-                    sock.sendall(
-                        f"PRIVMSG {channel} :{dummy_payload[:50]}\r\n".encode()
-                    )
-                except Exception:
-                    break
-
-                # Listen for server responses (PING from server → reply PONG)
-                sock.setblocking(False)
-                try:
-                    data = sock.recv(512).decode(errors="ignore")
-                    if "PING" in data:
-                        sock.sendall(b"PONG :cc-server\r\n")
-                        log(nick, "← PING from server → PONG sent")
-                except BlockingIOError:
-                    pass
-                finally:
-                    sock.setblocking(True)
-
-                time.sleep(HEARTBEAT_INT + random.uniform(-5, 5))
-
-        except ConnectionRefusedError:
-            log(nick, f"C&C not reachable — retrying in {RECONNECT_INT}s")
-        except Exception as e:
-            log(nick, f"Error: {e} — reconnecting in {RECONNECT_INT}s")
-        finally:
+            # Read brief server reply (keeps dst_bytes low, like real Neris)
+            sock.settimeout(0.5)
             try:
-                sock.close()
+                sock.recv(256)
             except Exception:
                 pass
 
-        if not _stop.is_set():
-            time.sleep(RECONNECT_INT)
+            # Graceful close → FIN → generates FSPA_FSPA state
+            sock.shutdown(socket.SHUT_RDWR)
+            log(nick, f"→ burst C2 ({n_msgs} msgs) ✓")
+
+        except ConnectionRefusedError:
+            log(nick, f"C&C refused — will retry")
+        except Exception:
+            pass
+        finally:
+            if sock:
+                try:
+                    sock.close()
+                except Exception:
+                    pass
+
+        # ── B. RST-generating probe (S_RA state — 22% of real Neris flows) ──
+        # Connect to a closed port on the same host → OS sends RST immediately
+        if random.random() < 0.25 and not _stop.is_set():
+            probe = None
+            try:
+                probe = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                probe.settimeout(1)
+                # Port range that is very likely closed on the monitor laptop
+                closed_port = random.choice([7777, 8888, 9999, 4444, 5555, 3333])
+                probe.connect((cc_host, closed_port))   # expect RST
+            except Exception:
+                pass                                     # RST = expected
+            finally:
+                if probe:
+                    try:
+                        probe.close()
+                    except Exception:
+                        pass
+
+        # ── C. Wait before next burst (controls flow frequency) ─────────────
+        # HEARTBEAT_INT acts as the inter-burst gap (default 5s → ~12 flows/min/bot)
+        time.sleep(HEARTBEAT_INT + random.uniform(-1, 2))
 
 
 # ── benign traffic generator ─────────────────────────────────────────────────

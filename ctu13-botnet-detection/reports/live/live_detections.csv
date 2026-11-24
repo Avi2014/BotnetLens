@@ -1,529 +1,299 @@
-timestamp,phase1_binary_prediction,phase1_binary_confidence,phase1_family_prediction,phase1_family_confidence,phase1_decision,phase2_executed,phase2_prediction,phase2_anomaly_score,phase2_threshold,final_label,final_category,explanation,src_ip,dst_ip,src_port,dst_port,proto
-2026-11-06T09:49:28.614685+00:00,Benign,0.9925,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.431911,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4319).,192.168.1.2,192.168.1.3,59674,6667,tcp
-2026-11-06T09:49:28.691738+00:00,Benign,0.993,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.50984,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.5098).,192.168.1.2,192.168.1.3,59650,6667,tcp
-2026-11-06T09:49:28.771183+00:00,Benign,0.993,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.50984,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.5098).,192.168.1.2,192.168.1.3,59660,6667,tcp
-2026-11-06T09:49:30.851677+00:00,Benign,0.9935,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.432472,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4325).,192.168.1.2,192.168.1.3,59718,6667,tcp
-2026-11-06T09:49:30.962446+00:00,Benign,0.9958,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.431272,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4313).,192.168.1.2,192.168.1.3,59696,6667,tcp
-2026-11-06T09:49:31.043595+00:00,Benign,0.9958,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.431272,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4313).,192.168.1.2,192.168.1.3,59712,6667,tcp
-2026-11-06T09:49:31.146985+00:00,Benign,0.9925,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.431911,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4319).,192.168.1.2,192.168.1.3,59684,6667,tcp
-2026-11-06T09:49:33.259319+00:00,Benign,0.9895,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.432935,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4329).,192.168.1.2,192.168.1.3,59728,6667,tcp
-2026-11-06T09:49:33.349084+00:00,Benign,0.9935,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.432472,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4325).,192.168.1.2,192.168.1.3,59724,6667,tcp
-2026-11-06T09:49:37.466776+00:00,Benign,0.7551,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409933,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:49:43.552770+00:00,Benign,0.9514,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.3989,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.3989).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:49:45.637153+00:00,Benign,0.6844,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.404505,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4045).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:49:45.720690+00:00,Benign,0.7792,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40388,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4039).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:49:45.799119+00:00,Benign,0.9514,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.3989,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.3989).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:49:47.938422+00:00,Benign,0.9394,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:49:50.067256+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:49:52.171808+00:00,Benign,0.752,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409052,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4091).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:49:52.268592+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:49:54.352368+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:49:56.451560+00:00,Benign,0.94,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.411865,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4119).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:49:56.530348+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:50:00.606901+00:00,Benign,0.971,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.421882,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4219).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:50:00.688023+00:00,Benign,0.9463,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.429011,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4290).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:50:00.768689+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:02.884024+00:00,Benign,0.9331,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:50:02.969811+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:50:03.059270+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:50:03.138193+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:50:03.233119+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:50:05.314572+00:00,Benign,0.9422,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.430991,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4310).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:50:07.394457+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:09.488760+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:50:09.567853+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:50:11.650555+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:50:11.738623+00:00,Benign,0.863,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:50:13.818098+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:15.908378+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:50:16.009136+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:50:20.102674+00:00,Benign,0.9369,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.422418,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4224).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:50:20.181888+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:50:22.286103+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:50:22.373375+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:50:22.452898+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:50:26.545915+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:26.630334+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:50:28.732574+00:00,Benign,0.974,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.4157,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4157).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:50:28.817719+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4133).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:50:28.894029+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:50:30.974940+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:50:31.055000+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:50:31.135401+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.446321,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4463).,192.168.1.3,224.0.0.22,0,0,2
-2026-11-06T09:50:31.216899+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,59311,5355,udp
-2026-11-06T09:50:31.303213+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,56238,5355,udp
-2026-11-06T09:50:33.403206+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:50:33.499364+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.49106,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4911).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:50:33.586977+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:50:37.695891+00:00,Benign,0.9728,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:50:37.776187+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:50:37.854388+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:50:39.946227+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:40.030909+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:50:40.109377+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:50:42.187855+00:00,Benign,0.9276,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419834,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4198).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:50:44.286914+00:00,Benign,0.9987,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.453391,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4534).,192.168.1.3,239.255.255.250,55871,1900,udp
-2026-11-06T09:50:44.365821+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:50:46.451306+00:00,Benign,0.9631,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.411561,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4116).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:50:46.537850+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.553486,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.5535).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:50:46.617530+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:50:48.701968+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:50:48.778044+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:50.863043+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:50:52.948245+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:50:55.035844+00:00,Benign,0.9782,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413537,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4135).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:50:55.116836+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:50:55.192462+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:50:55.269180+00:00,Benign,0.9044,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:50:57.353822+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:50:59.441767+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:51:01.531345+00:00,Benign,0.9276,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419513,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4195).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:51:01.617986+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:51:03.708528+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:51:03.792525+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:51:05.897328+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:51:07.992415+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:51:08.075145+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:51:10.170466+00:00,Benign,0.9085,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.446657,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4467).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:51:10.254769+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4133).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:51:10.336148+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:51:10.414789+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:51:12.502476+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:51:14.585842+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:51:16.676372+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:51:16.756658+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:51:16.838894+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:51:18.925152+00:00,Benign,0.9397,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:51:21.016479+00:00,Benign,0.9569,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:51:23.108916+00:00,Benign,0.9708,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.425394,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4254).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:51:23.191605+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:51:25.285995+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:51:25.393522+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:51:27.497616+00:00,Benign,0.6725,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418297,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4183).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:51:27.576432+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:51:27.659143+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:51:27.757134+00:00,Benign,0.9728,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:51:31.844891+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:51:33.948150+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:51:34.031342+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:51:36.123706+00:00,Benign,0.9644,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.427144,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4271).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:51:36.202544+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:51:36.289742+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:51:38.372965+00:00,Benign,0.9989,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.44527,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4453).,192.168.1.3,224.0.0.22,0,0,2
-2026-11-06T09:51:38.452386+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,62445,5355,udp
-2026-11-06T09:51:40.549621+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:51:40.632300+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.49106,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4911).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:51:40.706111+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:51:42.789078+00:00,Benign,0.9665,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418675,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4187).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:51:42.872400+00:00,Benign,0.9428,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418297,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4183).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:51:42.951856+00:00,Benign,0.9097,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:51:43.026791+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:51:45.111442+00:00,Benign,0.9989,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418392,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4184).,192.168.1.3,239.255.255.250,55871,1900,udp
-2026-11-06T09:51:47.193648+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:51:49.281298+00:00,Benign,0.9307,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:51:49.365703+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:51:49.447388+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:51:51.527789+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:51:51.604479+00:00,Benign,0.9284,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:51:55.698030+00:00,Benign,0.9428,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418389,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4184).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:51:55.777236+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:51:55.881733+00:00,Benign,0.8663,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409832,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4098).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:51:57.994069+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:52:00.086788+00:00,Benign,0.9028,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:52:00.183008+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:52:02.274008+00:00,Benign,0.9369,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.422418,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4224).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:52:04.379963+00:00,Benign,0.9637,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:52:06.474069+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:52:08.553452+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:52:08.637553+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:52:10.718932+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:52:12.820353+00:00,Benign,0.9746,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.425922,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4259).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:52:12.902217+00:00,Benign,0.6725,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.417953,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4180).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:52:12.977095+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409636,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4096).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:52:13.052435+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:52:17.148692+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:52:19.239217+00:00,Benign,0.909,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.42155,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4215).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:52:19.323006+00:00,Benign,0.9131,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418297,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4183).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:52:19.400817+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:52:21.487782+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:52:21.575320+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:52:21.657099+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:52:23.751194+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:52:25.844740+00:00,Benign,0.9709,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.432291,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4323).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:52:27.956082+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:52:28.054836+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:52:28.133205+00:00,Benign,0.9266,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:52:28.212401+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:52:28.293766+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:52:30.385621+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:52:34.478245+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:52:36.580701+00:00,Benign,0.9369,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.422418,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4224).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:52:36.662244+00:00,Benign,0.8576,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409407,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4094).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:52:38.748881+00:00,Benign,0.9552,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.415325,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4153).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:52:38.835204+00:00,Benign,0.8663,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409832,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4098).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:52:38.914619+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:52:41.012827+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:52:43.095222+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:52:45.186249+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:52:47.301400+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:52:47.388668+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:52:51.468114+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:52:51.543627+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:52:51.619447+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:52:53.730413+00:00,Benign,0.9499,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:52:53.818385+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:52:53.906173+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:52:56.027390+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:53:02.122718+00:00,Benign,0.8961,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419513,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4195).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:53:02.206540+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:53:02.282971+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:53:04.362507+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:53:04.440781+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:53:04.516196+00:00,Botnet,0.6527,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412015,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4120).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:53:04.591264+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:53:06.686607+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:53:06.777821+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:53:10.883156+00:00,Benign,0.9441,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.441507,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4415).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:53:10.984112+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:53:11.068447+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:53:13.163964+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:53:13.245446+00:00,Benign,0.9728,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:53:15.332083+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:53:15.420734+00:00,Benign,0.9452,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:53:15.515145+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:53:17.599835+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:53:17.682292+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:53:19.771875+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:53:21.867474+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:53:21.947367+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:53:24.035098+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:53:24.123629+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:53:28.207539+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:53:28.286672+00:00,Benign,0.9394,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:53:28.367378+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:53:32.456966+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:53:34.545754+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4133).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:53:34.627297+00:00,Benign,0.8737,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:53:36.711206+00:00,Benign,0.9255,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.421838,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4218).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:53:36.792206+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:53:38.875256+00:00,Benign,0.9117,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:53:40.967304+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:53:41.061584+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:53:43.148965+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:53:47.241179+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:53:49.340081+00:00,Benign,0.9631,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.411471,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4115).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:53:49.423038+00:00,Benign,0.9284,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:53:49.505138+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:53:49.586119+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:53:49.715069+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:53:53.815539+00:00,Benign,0.9634,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.431641,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4316).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:53:53.909560+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:53:53.989699+00:00,Benign,0.6725,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.417953,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4180).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:53:58.075298+00:00,Benign,0.9284,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:53:58.164148+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:54:00.244580+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:54:02.344931+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:54:02.433659+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:54:06.526984+00:00,Benign,0.9631,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.411561,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4116).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:54:06.618471+00:00,Benign,0.9499,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:54:06.700228+00:00,Benign,0.9097,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:54:06.792388+00:00,Benign,0.9569,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:54:08.883081+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:54:08.983208+00:00,Benign,0.8755,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:54:09.065119+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:54:11.167673+00:00,Benign,0.9637,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:54:11.250006+00:00,Benign,0.9197,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:54:13.332061+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40892,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4089).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:54:13.408197+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:54:15.505762+00:00,Benign,0.8663,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409832,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4098).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:54:15.601776+00:00,Benign,0.9559,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:54:15.705185+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:54:17.809621+00:00,Benign,0.9986,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.465567,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4656).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:54:19.912107+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:54:20.004421+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:54:20.090031+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:54:22.193734+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:54:26.309638+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:54:28.412229+00:00,Botnet,0.5645,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413512,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4135).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:54:28.508588+00:00,Benign,0.9662,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407861,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4079).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:54:30.601591+00:00,Benign,0.9369,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.422418,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4224).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:54:30.685778+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:54:32.776733+00:00,Benign,0.9552,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.415415,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4154).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:54:32.879827+00:00,Benign,0.9284,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:54:32.980610+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409636,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4096).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:54:33.082250+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:54:39.179938+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:54:39.283796+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:54:41.382442+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:54:41.476091+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:54:45.574258+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:54:47.681713+00:00,Benign,0.9607,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.423403,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4234).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:54:49.780071+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4133).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:54:49.892561+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:54:50.001631+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:54:50.102738+00:00,Benign,0.9307,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:54:52.212032+00:00,Benign,0.9028,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:54:54.298342+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:54:56.378782+00:00,Benign,0.9466,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.423382,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4234).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:54:56.484464+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:54:56.580961+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:54:56.688806+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:55:02.808276+00:00,Benign,0.9336,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.436285,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4363).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:55:02.915820+00:00,Benign,0.917,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:55:03.010233+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:55:05.120328+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:55:05.233991+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:55:07.366195+00:00,Benign,0.9499,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:55:07.512101+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:55:09.624351+00:00,Benign,0.9097,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:55:09.762164+00:00,Benign,0.6725,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.417953,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4180).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:55:11.885210+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:55:14.003146+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:55:16.096104+00:00,Benign,0.9499,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:55:16.205940+00:00,Benign,0.9117,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:55:16.314081+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:55:16.416958+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:55:16.523169+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:55:18.631652+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:55:18.745006+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:55:24.852843+00:00,Benign,0.917,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:55:24.953829+00:00,Benign,0.9394,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:55:25.058976+00:00,Benign,0.9307,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:55:25.163182+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:55:31.263564+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409636,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4096).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:55:31.367021+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:55:33.491066+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:55:33.622830+00:00,Benign,0.9452,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:55:35.750810+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:55:39.867806+00:00,Benign,0.9336,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.436285,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4363).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:55:39.979753+00:00,Benign,0.9746,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.425596,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4256).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:55:40.082275+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:55:42.182052+00:00,Benign,0.8741,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:55:44.346220+00:00,Benign,0.9634,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.431641,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4316).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:55:44.463556+00:00,Benign,0.9552,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.415415,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4154).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:55:44.623431+00:00,Benign,0.8961,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419226,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4192).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:55:44.742694+00:00,Benign,0.8755,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:55:46.878877+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:55:46.987374+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:55:49.088200+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.553486,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.5535).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:55:49.216059+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:55:51.332370+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409636,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4096).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:55:51.437079+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:55:53.535863+00:00,Benign,0.9428,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418389,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4184).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:55:53.643305+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:55:57.748997+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:55:57.833676+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:55:57.920573+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:56:00.013604+00:00,Benign,0.6989,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.417811,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4178).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:56:00.115987+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:02.217547+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:56:02.312996+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:56:02.412054+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:56:04.515609+00:00,Benign,0.9552,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.415325,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4153).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:56:04.612997+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:56:06.715805+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:56:06.817006+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:06.917770+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:56:09.008374+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:56:13.105540+00:00,Benign,0.9307,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:15.219467+00:00,Benign,0.9428,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418297,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4183).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:56:15.348380+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:56:19.453042+00:00,Benign,0.9331,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:56:19.565617+00:00,Benign,0.9637,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:56:19.666733+00:00,Benign,0.8737,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:56:19.780868+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:56:21.882784+00:00,Benign,0.9637,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.4157,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4157).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:56:21.971877+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:56:22.067839+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:24.176724+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:56:26.290851+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:56:28.377219+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:28.475413+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:56:30.585666+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:56:32.704594+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:56:32.808846+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:56:34.896202+00:00,Benign,0.9131,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418297,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4183).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:56:36.991550+00:00,Benign,0.9499,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:56:39.084237+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:41.191337+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:56:41.321144+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:56:43.417505+00:00,Benign,0.9628,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.426052,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4261).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:56:43.511274+00:00,Benign,0.9117,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:56:45.598202+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:47.698552+00:00,Benign,0.6725,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.417953,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4180).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:56:47.800126+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:56:49.886363+00:00,Benign,0.9569,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:56:49.981875+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:56:52.090223+00:00,Benign,0.9471,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.423382,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4234).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:56:54.196089+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:56:56.283625+00:00,Benign,0.9412,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.440307,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4403).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:56:56.370195+00:00,Benign,0.9552,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.415415,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4154).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:56:56.458622+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:56:56.546227+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:56:58.686750+00:00,Benign,0.6429,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.472288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4723).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:56:58.784521+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:57:00.912389+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:57:03.013183+00:00,Benign,0.9284,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:57:03.115288+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:57:03.198135+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:05.285726+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:57:07.389861+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:57:09.497303+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:57:09.579725+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:57:09.660445+00:00,Benign,0.9394,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:57:09.743817+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:57:09.834752+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:57:11.935509+00:00,Benign,0.9428,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418297,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4183).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:57:12.055079+00:00,Benign,0.9569,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:14.366590+00:00,Benign,0.9986,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.465567,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4656).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:57:16.466753+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:57:16.550659+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:57:16.633509+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:57:18.722385+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:57:18.808725+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:57:18.889533+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:57:18.972536+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:21.066251+00:00,Benign,0.9637,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:57:23.174995+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:57:25.275191+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:57:25.369066+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:57:25.455316+00:00,Benign,0.9266,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:57:27.540320+00:00,Benign,0.9394,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:57:27.626589+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:57:27.716444+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:29.829615+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.446321,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4463).,192.168.1.3,224.0.0.22,0,0,2
-2026-11-06T09:57:29.932026+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,56731,5355,udp
-2026-11-06T09:57:30.019171+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,60164,5355,udp
-2026-11-06T09:57:32.107265+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:57:32.191993+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.492552,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4926).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:57:32.272762+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:57:34.366973+00:00,Benign,0.9097,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:57:34.456267+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:57:34.543974+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:57:36.629557+00:00,Benign,0.8737,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:57:36.720409+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.40816,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4082).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:57:36.805540+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:57:36.891244+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:41.008937+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:57:43.111569+00:00,Benign,0.9987,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.453391,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4534).,192.168.1.3,239.255.255.250,55871,1900,udp
-2026-11-06T09:57:43.199636+00:00,Benign,0.9028,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:57:43.292011+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:45.408091+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:57:45.499521+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:57:45.585161+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:57:47.682979+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:57:49.835242+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:57:49.979774+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:57:52.086237+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:57:54.194513+00:00,Benign,0.9028,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:57:56.298872+00:00,Benign,0.8542,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409407,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4094).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:57:56.387135+00:00,Benign,0.863,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:57:58.485559+00:00,Benign,0.9257,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.437766,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4378).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:57:58.588399+00:00,Benign,0.9276,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419834,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4198).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:58:00.714679+00:00,Benign,0.9677,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.42425,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4242).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:58:02.803326+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:04.905089+00:00,Benign,0.9248,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419828,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4198).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:58:07.016262+00:00,Benign,0.9428,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418389,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4184).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:58:07.112466+00:00,Benign,0.9159,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.412823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4128).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:58:07.208966+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:58:09.300184+00:00,Botnet,0.6916,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.424007,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4240).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:58:11.400707+00:00,Benign,0.8755,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:58:11.480814+00:00,Benign,0.8737,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:58:11.565988+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:13.689555+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:58:15.788023+00:00,Benign,0.8961,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419226,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4192).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:58:15.919965+00:00,Benign,0.9552,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.415325,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4153).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:58:16.018186+00:00,Benign,0.863,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:58:16.119033+00:00,Benign,0.9307,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:58:16.253653+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:58:18.352432+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:20.464065+00:00,Benign,0.9332,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:58:22.553520+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:58:24.645142+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:58:26.733784+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:58:28.819969+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:58:28.913587+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:33.010493+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:58:35.098722+00:00,Benign,0.9746,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.425596,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4256).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:58:35.214353+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:35.311737+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:58:37.424249+00:00,Benign,0.9371,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.420939,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4209).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:58:37.509298+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,53316,5355,udp
-2026-11-06T09:58:39.614517+00:00,Benign,0.9998,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.446321,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4463).,192.168.1.3,224.0.0.22,0,0,2
-2026-11-06T09:58:39.709119+00:00,Benign,0.9994,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.49004,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4900).,192.168.1.3,224.0.0.251,5353,5353,udp
-2026-11-06T09:58:39.783451+00:00,Benign,0.6323,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.471823,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4718).,192.168.1.3,224.0.0.252,56044,5355,udp
-2026-11-06T09:58:41.868760+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:58:41.958281+00:00,Benign,0.9631,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.411471,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4115).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:58:44.051035+00:00,Benign,0.9471,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.423854,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4239).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:58:44.150970+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:58:44.243231+00:00,Benign,0.9989,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.418392,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4184).,192.168.1.3,239.255.255.250,55871,1900,udp
-2026-11-06T09:58:44.351128+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:58:44.459143+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:58:46.552821+00:00,Benign,0.9369,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.422418,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4224).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:58:46.633493+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:58:48.740519+00:00,Benign,0.9284,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:48.839189+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:58:50.934236+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:58:53.025951+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:58:53.109077+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:58:53.186361+00:00,Benign,0.9222,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409536,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4095).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:58:55.285277+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:58:57.369131+00:00,Benign,0.9559,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:58:59.478855+00:00,Benign,0.9308,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407617,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4076).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:58:59.563101+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:58:59.639059+00:00,Benign,0.8152,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:58:59.725651+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:59:01.820061+00:00,Benign,0.8804,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:59:05.915301+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:59:06.012359+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:59:10.102563+00:00,Benign,0.9653,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.424923,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4249).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:59:10.180808+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:59:10.253969+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:59:12.374356+00:00,Benign,0.8737,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:59:12.469570+00:00,Benign,0.8663,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409832,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4098).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:59:14.563146+00:00,Benign,0.9369,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.422418,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4224).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:59:14.642512+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:59:16.731991+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:59:16.819555+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:59:16.902343+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:59:18.993170+00:00,Benign,0.8777,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409974,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4100).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:59:21.080534+00:00,Benign,0.8767,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407662,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:59:23.186307+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:59:23.268086+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:59:27.364484+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:59:27.443357+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:59:31.521667+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:59:31.602493+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:59:33.687787+00:00,Benign,0.9471,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.423382,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4234).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:59:33.784945+00:00,Benign,0.9276,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419513,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4195).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T09:59:33.882634+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:59:37.971140+00:00,Benign,0.9746,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.42619,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4262).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:59:40.074813+00:00,Benign,0.9394,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.407695,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4077).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:59:42.160812+00:00,Benign,0.9276,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.420098,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4201).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:59:42.259462+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4133).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T09:59:46.360597+00:00,Benign,0.884,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409636,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4096).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:59:48.452685+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:59:48.532829+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T09:59:50.635450+00:00,Benign,0.9147,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419513,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4195).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:59:50.713888+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413164,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4132).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:59:52.815640+00:00,Benign,0.9708,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.424923,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4249).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:59:52.948264+00:00,Benign,0.973,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.413254,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4133).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T09:59:53.148452+00:00,Benign,0.8755,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409945,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4099).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T09:59:55.268766+00:00,Benign,0.9272,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408583,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4086).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T09:59:55.350169+00:00,Benign,0.9028,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T09:59:57.453769+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T09:59:59.555439+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T09:59:59.640126+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T09:59:59.712551+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T10:00:01.797525+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41134,6667,tcp
-2026-11-06T10:07:30.141683+00:00,Benign,0.8674,,,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.69271,0.0,Suspicious,NOVEL_BEHAVIOR,Phase 1 inconclusive (conf=0.8674). Phase 2 flagged as anomalous (score=-0.6927).,192.168.1.2,192.168.1.3,22,50340,tcp
-2026-11-06T10:07:30.494211+00:00,Benign,0.9677,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.42425,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4242).,192.168.1.2,192.168.1.3,41174,6667,tcp
-2026-11-06T10:07:30.679068+00:00,Benign,0.9147,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.419513,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4195).,192.168.1.2,192.168.1.3,41124,6667,tcp
-2026-11-06T10:07:30.779863+00:00,Benign,0.9149,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4080).,192.168.1.2,192.168.1.3,51894,6667,tcp
-2026-11-06T10:07:31.001181+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41078,6667,tcp
-2026-11-06T10:07:31.236372+00:00,Benign,0.9326,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.409034,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4090).,192.168.1.2,192.168.1.3,41094,6667,tcp
-2026-11-06T10:07:31.442945+00:00,Benign,0.9424,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41108,6667,tcp
-2026-11-06T10:07:31.592546+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41158,6667,tcp
-2026-11-06T10:07:31.727697+00:00,Benign,0.9397,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.408288,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4083).,192.168.1.2,192.168.1.3,41148,6667,tcp
-2026-11-06T10:07:31.938014+00:00,Benign,0.9503,,,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.403194,0.0,Benign,BENIGN,Phase 1: benign/low-confidence. Phase 2: normal (score=-0.4032).,192.168.1.2,192.168.1.3,41114,6667,tcp
-2026-11-06T10:07:32.154271+00:00,Benign,0.9993,,,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.637659,0.0,Suspicious,NOVEL_BEHAVIOR,Phase 1 inconclusive (conf=0.9993). Phase 2 flagged as anomalous (score=-0.6377).,192.168.1.3,224.0.0.251,5353,5353,udp
+timestamp,phase1_binary_prediction,phase1_binary_confidence,phase1_family_prediction,phase1_family_confidence,phase1_decision,phase2_executed,phase2_prediction,phase2_anomaly_score,phase2_threshold,final_label,final_category,src_ip,dst_ip,src_port,dst_port,proto
+2026-11-22T14:34:47.784629+00:00,Botnet,0.9798,Menti,0.746,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34592,6667,tcp
+2026-11-22T14:34:47.834629+00:00,Botnet,0.9999,Neris,1.0,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42919,6667,tcp
+2026-11-22T14:34:47.884629+00:00,Botnet,0.9386,Neris,0.9565,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54684,6667,tcp
+2026-11-22T14:34:47.934629+00:00,Botnet,0.9723,Neris,0.9776,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47493,6667,tcp
+2026-11-22T14:34:47.984629+00:00,Botnet,0.8669,Neris,0.9588,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35914,6667,tcp
+2026-11-22T14:34:48.034629+00:00,Botnet,0.9925,Neris,0.994,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33828,6667,tcp
+2026-11-22T14:34:48.084629+00:00,Botnet,0.9065,Neris,0.961,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35753,6667,tcp
+2026-11-22T14:34:48.134629+00:00,Botnet,0.9763,Neris,0.4738,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51644,6667,tcp
+2026-11-22T14:34:48.184629+00:00,Botnet,0.9952,Rbot,0.7807,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39794,6667,tcp
+2026-11-22T14:34:48.234629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55992,6667,tcp
+2026-11-22T14:34:48.284629+00:00,Botnet,0.9991,Neris,0.999,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34561,6667,tcp
+2026-11-22T14:34:48.334629+00:00,Botnet,0.9951,Rbot,0.7909,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33362,6667,tcp
+2026-11-22T14:34:48.384629+00:00,Botnet,0.9844,Neris,0.4459,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,38983,6667,tcp
+2026-11-22T14:34:48.434629+00:00,Botnet,0.9829,Neris,0.9891,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46113,6667,tcp
+2026-11-22T14:34:48.484629+00:00,Botnet,0.8861,Neris,0.944,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51491,6667,tcp
+2026-11-22T14:34:48.534629+00:00,Botnet,0.9935,Neris,0.9955,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39135,6667,tcp
+2026-11-22T14:34:48.584629+00:00,Botnet,0.9989,Neris,0.9991,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42345,6667,tcp
+2026-11-22T14:34:48.634629+00:00,Botnet,0.975,Neris,0.925,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46395,6667,tcp
+2026-11-22T14:34:48.684629+00:00,Botnet,0.9346,Neris,0.9592,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42743,6667,tcp
+2026-11-22T14:34:48.734629+00:00,Botnet,0.9059,Neris,0.9512,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36536,6667,tcp
+2026-11-22T14:34:48.784629+00:00,Botnet,0.9713,Neris,0.9797,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44011,6667,tcp
+2026-11-22T14:34:48.834629+00:00,Botnet,1.0,Neris,0.9952,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45935,6667,tcp
+2026-11-22T14:34:48.884629+00:00,Botnet,0.9827,Rbot,0.4314,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56484,6667,tcp
+2026-11-22T14:34:48.934629+00:00,Botnet,0.9716,Neris,0.4813,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39529,6667,tcp
+2026-11-22T14:34:48.984629+00:00,Botnet,0.9732,Neris,0.9903,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49828,6667,tcp
+2026-11-22T14:34:49.034629+00:00,Botnet,0.9056,Neris,0.9524,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57802,6667,tcp
+2026-11-22T14:34:49.084629+00:00,Botnet,0.6134,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.330465,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,38000,53,tcp
+2026-11-22T14:34:49.134629+00:00,Botnet,0.9958,Neris,0.9963,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52892,6667,tcp
+2026-11-22T14:34:49.184629+00:00,Botnet,0.9923,Neris,0.9934,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50614,6667,tcp
+2026-11-22T14:34:49.234629+00:00,Botnet,0.6389,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.518661,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,42413,80,tcp
+2026-11-22T14:34:49.284629+00:00,Botnet,0.9358,Neris,0.9117,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58651,6667,tcp
+2026-11-22T14:34:49.334629+00:00,Botnet,0.9677,Neris,0.979,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60881,6667,tcp
+2026-11-22T14:34:49.384629+00:00,Botnet,0.9808,Menti,0.7559,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44174,6667,tcp
+2026-11-22T14:34:49.434629+00:00,Botnet,0.9779,Neris,0.483,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53717,6667,tcp
+2026-11-22T14:34:49.484629+00:00,Botnet,0.9931,Neris,0.659,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54189,6667,tcp
+2026-11-22T14:34:49.534629+00:00,Botnet,0.9966,Neris,0.9986,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39650,6667,tcp
+2026-11-22T14:34:49.584629+00:00,Botnet,0.993,Neris,0.9958,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,38942,6667,tcp
+2026-11-22T14:34:49.634629+00:00,Botnet,0.8967,Neris,0.9599,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42709,6667,tcp
+2026-11-22T14:34:49.684629+00:00,Botnet,0.93,Neris,0.9515,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48568,6667,tcp
+2026-11-22T14:34:49.734629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36934,6667,tcp
+2026-11-22T14:34:49.784629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58577,6667,tcp
+2026-11-22T14:34:49.834629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,38657,6667,tcp
+2026-11-22T14:34:49.884629+00:00,Botnet,0.8764,Neris,0.6432,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40155,6667,tcp
+2026-11-22T14:34:49.934629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55363,6667,tcp
+2026-11-22T14:34:49.984629+00:00,Botnet,0.9548,Neris,0.9599,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50873,6667,tcp
+2026-11-22T14:34:50.034629+00:00,Botnet,0.9848,Neris,0.9896,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50639,6667,tcp
+2026-11-22T14:34:50.084629+00:00,Botnet,0.9433,Neris,0.7965,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52797,6667,tcp
+2026-11-22T14:34:50.134629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41540,6667,tcp
+2026-11-22T14:34:50.184629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58151,6667,tcp
+2026-11-22T14:34:50.234629+00:00,Botnet,0.9697,Neris,0.5273,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53250,6667,tcp
+2026-11-22T14:34:50.284629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55839,6667,tcp
+2026-11-22T14:34:50.334629+00:00,Botnet,0.9953,Menti,0.4763,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47218,6667,tcp
+2026-11-22T14:34:50.384629+00:00,Botnet,0.9283,Neris,0.9344,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,32887,6667,tcp
+2026-11-22T14:34:50.434629+00:00,Botnet,0.973,Neris,0.9753,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48004,6667,tcp
+2026-11-22T14:34:50.484629+00:00,Botnet,1.0,Neris,1.0,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54718,6667,tcp
+2026-11-22T14:34:50.534629+00:00,Botnet,0.761,Neris,0.7544,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37774,6667,tcp
+2026-11-22T14:34:50.584629+00:00,Botnet,0.988,Neris,0.9913,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37761,6667,tcp
+2026-11-22T14:34:50.634629+00:00,Botnet,0.9793,Neris,0.989,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50541,6667,tcp
+2026-11-22T14:34:50.684629+00:00,Botnet,0.9971,Neris,0.9793,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37879,6667,tcp
+2026-11-22T14:34:50.734629+00:00,Botnet,0.7815,Neris,0.6872,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44087,6667,tcp
+2026-11-22T14:34:50.784629+00:00,Botnet,0.8205,Neris,0.947,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39539,6667,tcp
+2026-11-22T14:34:50.834629+00:00,Botnet,0.9932,Neris,0.9951,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52919,6667,tcp
+2026-11-22T14:34:50.884629+00:00,Botnet,0.9808,Menti,0.733,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47938,6667,tcp
+2026-11-22T14:34:50.934629+00:00,Botnet,0.9822,Neris,0.624,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54433,6667,tcp
+2026-11-22T14:34:50.984629+00:00,Benign,0.8351,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.591665,0.0,Suspicious,NOVEL_BEHAVIOR,192.168.1.2,192.168.1.3,43914,53,tcp
+2026-11-22T14:34:51.034629+00:00,Botnet,0.9849,Neris,0.9837,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51388,6667,tcp
+2026-11-22T14:34:51.084629+00:00,Botnet,0.9705,Neris,0.5272,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60566,6667,tcp
+2026-11-22T14:34:51.134629+00:00,Botnet,0.9869,Neris,0.9905,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44331,6667,tcp
+2026-11-22T14:34:51.184629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48109,6667,tcp
+2026-11-22T14:34:51.234629+00:00,Botnet,0.525,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.34621,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,37863,53,tcp
+2026-11-22T14:34:51.284629+00:00,Botnet,0.9229,Neris,0.9454,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46732,6667,tcp
+2026-11-22T14:34:51.334629+00:00,Botnet,0.9952,Neris,0.9844,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42316,6667,tcp
+2026-11-22T14:34:51.384629+00:00,Botnet,0.9385,Neris,0.9568,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35127,6667,tcp
+2026-11-22T14:34:51.434629+00:00,Botnet,0.9886,Neris,0.9861,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58015,6667,tcp
+2026-11-22T14:34:51.484629+00:00,Botnet,0.9812,Neris,0.9844,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50960,6667,tcp
+2026-11-22T14:34:51.534629+00:00,Botnet,0.9808,Menti,0.7559,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45357,6667,tcp
+2026-11-22T14:34:51.584629+00:00,Botnet,0.9992,Neris,0.9998,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43717,6667,tcp
+2026-11-22T14:34:51.634629+00:00,Botnet,0.9951,Neris,0.9986,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53382,6667,tcp
+2026-11-22T14:34:51.684629+00:00,Botnet,0.5296,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.349984,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,59612,443,tcp
+2026-11-22T14:34:51.734629+00:00,Botnet,0.9457,Neris,0.9696,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48360,6667,tcp
+2026-11-22T14:34:51.784629+00:00,Botnet,0.9973,Neris,0.9978,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48680,6667,tcp
+2026-11-22T14:34:51.834629+00:00,Botnet,0.9257,Neris,0.9616,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43603,6667,tcp
+2026-11-22T14:34:51.884629+00:00,Botnet,0.9097,Neris,0.9441,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46972,6667,tcp
+2026-11-22T14:34:51.934629+00:00,Botnet,0.8573,Neris,0.8803,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34886,6667,tcp
+2026-11-22T14:34:51.984629+00:00,Botnet,0.8775,Neris,0.7644,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43080,6667,tcp
+2026-11-22T14:34:52.034629+00:00,Botnet,0.9856,Neris,0.9044,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35453,6667,tcp
+2026-11-22T14:34:52.084629+00:00,Botnet,0.7568,Neris,0.6243,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54763,6667,tcp
+2026-11-22T14:34:52.134629+00:00,Botnet,0.9809,Neris,0.6025,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46850,6667,tcp
+2026-11-22T14:34:52.184629+00:00,Botnet,0.9306,Neris,0.9554,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46620,6667,tcp
+2026-11-22T14:34:52.234629+00:00,Botnet,0.9072,Neris,0.8944,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60386,6667,tcp
+2026-11-22T14:34:52.284629+00:00,Botnet,0.9159,Neris,0.9195,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43198,6667,tcp
+2026-11-22T14:34:52.334629+00:00,Botnet,0.7982,Neris,0.785,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40328,6667,tcp
+2026-11-22T14:34:52.384629+00:00,Botnet,0.9303,Neris,0.9824,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45646,6667,tcp
+2026-11-22T14:34:52.434629+00:00,Botnet,0.9925,Neris,0.6598,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56910,6667,tcp
+2026-11-22T14:34:52.484629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39569,6667,tcp
+2026-11-22T14:34:52.534629+00:00,Botnet,0.9143,Neris,0.9256,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45277,6667,tcp
+2026-11-22T14:34:52.584629+00:00,Botnet,0.968,Neris,0.9787,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48475,6667,tcp
+2026-11-22T14:34:52.634629+00:00,Botnet,0.8062,Neris,0.8489,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41942,6667,tcp
+2026-11-22T14:34:52.684629+00:00,Botnet,0.8263,Neris,0.8911,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39412,6667,tcp
+2026-11-22T14:34:52.734629+00:00,Botnet,0.8641,Neris,0.9424,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33912,6667,tcp
+2026-11-22T14:34:52.784629+00:00,Botnet,0.9955,Menti,0.5731,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51857,6667,tcp
+2026-11-22T14:34:52.834629+00:00,Botnet,0.9327,Neris,0.9442,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41840,6667,tcp
+2026-11-22T14:34:52.884629+00:00,Botnet,0.9178,Neris,0.935,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49476,6667,tcp
+2026-11-22T14:34:52.934629+00:00,Botnet,0.9889,Neris,0.9945,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52567,6667,tcp
+2026-11-22T14:34:52.984629+00:00,Botnet,0.9965,Neris,0.9969,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47894,6667,tcp
+2026-11-22T14:34:53.034629+00:00,Botnet,0.9993,Neris,0.9995,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51291,6667,tcp
+2026-11-22T14:34:53.084629+00:00,Botnet,0.9627,Neris,0.963,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45164,6667,tcp
+2026-11-22T14:34:53.134629+00:00,Benign,0.5557,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.345775,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,53937,443,tcp
+2026-11-22T14:34:53.184629+00:00,Benign,0.5743,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.33226,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,39582,443,tcp
+2026-11-22T14:34:53.234629+00:00,Benign,0.8989,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.590973,0.0,Suspicious,NOVEL_BEHAVIOR,192.168.1.2,192.168.1.3,39493,53,tcp
+2026-11-22T14:34:53.284629+00:00,Botnet,1.0,Neris,1.0,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56188,6667,tcp
+2026-11-22T14:34:53.334629+00:00,Botnet,0.9703,Neris,0.9906,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34025,6667,tcp
+2026-11-22T14:34:53.384629+00:00,Botnet,0.9972,Neris,0.978,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55870,6667,tcp
+2026-11-22T14:34:53.434629+00:00,Botnet,0.7101,Neris,0.7072,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34313,6667,tcp
+2026-11-22T14:34:53.484629+00:00,Botnet,0.9704,Neris,0.5028,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43962,6667,tcp
+2026-11-22T14:34:53.534629+00:00,Benign,0.9355,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.336242,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,42784,53,tcp
+2026-11-22T14:34:53.584629+00:00,Botnet,0.9947,Virut,0.6835,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,59966,6667,tcp
+2026-11-22T14:34:53.634629+00:00,Botnet,0.979,Neris,0.9799,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54678,6667,tcp
+2026-11-22T14:34:53.684629+00:00,Botnet,0.992,Neris,0.9928,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50014,6667,tcp
+2026-11-22T14:34:53.734629+00:00,Botnet,0.9844,Menti,0.4205,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36737,6667,tcp
+2026-11-22T14:34:53.784629+00:00,Botnet,0.9861,Neris,0.99,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34346,6667,tcp
+2026-11-22T14:34:53.834629+00:00,Botnet,0.9336,Neris,0.9355,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41814,6667,tcp
+2026-11-22T14:34:53.884629+00:00,Botnet,0.9648,Neris,0.986,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44884,6667,tcp
+2026-11-22T14:34:53.934629+00:00,Benign,0.7974,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.365524,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,49202,80,tcp
+2026-11-22T14:34:53.984629+00:00,Botnet,0.8833,Neris,0.9386,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34568,6667,tcp
+2026-11-22T14:34:54.034629+00:00,Botnet,0.943,Neris,0.9018,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52982,6667,tcp
+2026-11-22T14:34:54.084629+00:00,Benign,0.8351,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.591665,0.0,Suspicious,NOVEL_BEHAVIOR,192.168.1.2,192.168.1.3,39599,53,tcp
+2026-11-22T14:34:54.134629+00:00,Botnet,0.8635,Neris,0.9633,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46335,6667,tcp
+2026-11-22T14:34:54.184629+00:00,Botnet,0.9344,Neris,0.9675,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58734,6667,tcp
+2026-11-22T14:34:54.234629+00:00,Botnet,0.9961,Neris,0.9974,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45637,6667,tcp
+2026-11-22T14:34:54.284629+00:00,Botnet,0.9388,Neris,0.946,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55378,6667,tcp
+2026-11-22T14:34:54.334629+00:00,Botnet,0.8202,Neris,0.8481,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37270,6667,tcp
+2026-11-22T14:34:54.384629+00:00,Botnet,0.9821,Neris,0.6175,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39833,6667,tcp
+2026-11-22T14:34:54.434629+00:00,Botnet,0.9741,Neris,0.9827,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60930,6667,tcp
+2026-11-22T14:34:54.484629+00:00,Botnet,0.987,Neris,0.9791,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56530,6667,tcp
+2026-11-22T14:34:54.534629+00:00,Botnet,0.984,Neris,0.9795,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52372,6667,tcp
+2026-11-22T14:34:54.584629+00:00,Botnet,0.9767,Neris,0.5221,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36609,6667,tcp
+2026-11-22T14:34:54.634629+00:00,Botnet,0.703,Neris,0.6887,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52873,6667,tcp
+2026-11-22T14:34:54.684629+00:00,Botnet,0.9947,Neris,0.9964,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53250,6667,tcp
+2026-11-22T14:34:54.734629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48197,6667,tcp
+2026-11-22T14:34:54.784629+00:00,Botnet,0.9934,Neris,0.9965,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35543,6667,tcp
+2026-11-22T14:34:54.834629+00:00,Botnet,0.9769,Neris,0.507,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40759,6667,tcp
+2026-11-22T14:34:54.884629+00:00,Botnet,0.9924,Neris,0.9913,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45942,6667,tcp
+2026-11-22T14:34:54.934629+00:00,Botnet,0.8515,Neris,0.92,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36465,6667,tcp
+2026-11-22T14:34:54.984629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41153,6667,tcp
+2026-11-22T14:34:55.034629+00:00,Botnet,0.9662,Neris,0.5784,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60023,6667,tcp
+2026-11-22T14:34:55.084629+00:00,Botnet,0.9403,Neris,0.9451,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35600,6667,tcp
+2026-11-22T14:34:55.134629+00:00,Botnet,0.9837,Neris,0.9927,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40860,6667,tcp
+2026-11-22T14:34:55.184629+00:00,Botnet,0.9973,Neris,0.9973,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54585,6667,tcp
+2026-11-22T14:34:55.234629+00:00,Benign,0.5657,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.345775,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,55223,443,tcp
+2026-11-22T14:34:55.284629+00:00,Botnet,0.8942,Neris,0.888,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41409,6667,tcp
+2026-11-22T14:34:55.334629+00:00,Botnet,0.8828,Neris,0.8673,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39695,6667,tcp
+2026-11-22T14:34:55.384629+00:00,Botnet,0.9955,Menti,0.5107,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53691,6667,tcp
+2026-11-22T14:34:55.434629+00:00,Botnet,0.9881,Neris,0.9913,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,38692,6667,tcp
+2026-11-22T14:34:55.484629+00:00,Botnet,0.6494,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.323859,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,47925,443,tcp
+2026-11-22T14:34:55.534629+00:00,Botnet,0.978,Neris,0.9822,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37814,6667,tcp
+2026-11-22T14:34:55.584629+00:00,Botnet,0.9142,Neris,0.9481,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35608,6667,tcp
+2026-11-22T14:34:55.634629+00:00,Botnet,0.9922,Neris,0.9886,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53658,6667,tcp
+2026-11-22T14:34:55.684629+00:00,Botnet,0.9663,Neris,0.9719,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57022,6667,tcp
+2026-11-22T14:34:55.734629+00:00,Botnet,0.9815,Menti,0.746,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,59601,6667,tcp
+2026-11-22T14:34:55.784629+00:00,Botnet,0.9844,Neris,0.4402,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53580,6667,tcp
+2026-11-22T14:34:55.834629+00:00,Botnet,0.9974,Neris,0.9973,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51324,6667,tcp
+2026-11-22T14:34:55.884629+00:00,Botnet,0.9717,Neris,0.9896,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57462,6667,tcp
+2026-11-22T14:34:55.934629+00:00,Botnet,0.9924,Neris,0.9982,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55019,6667,tcp
+2026-11-22T14:34:55.984629+00:00,Botnet,0.8327,Neris,0.8224,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52047,6667,tcp
+2026-11-22T14:34:56.034629+00:00,Botnet,0.8719,Neris,0.9365,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57552,6667,tcp
+2026-11-22T14:34:56.084629+00:00,Botnet,0.9709,Rbot,0.5503,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55377,6667,tcp
+2026-11-22T14:34:56.134629+00:00,Botnet,0.9925,Neris,0.9948,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56479,6667,tcp
+2026-11-22T14:34:56.184629+00:00,Botnet,0.9697,Neris,0.5208,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47720,6667,tcp
+2026-11-22T14:34:56.234629+00:00,Botnet,0.9995,Neris,1.0,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53759,6667,tcp
+2026-11-22T14:34:56.284629+00:00,Botnet,0.9682,Virut,0.7169,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39546,6667,tcp
+2026-11-22T14:34:56.334629+00:00,Botnet,0.9835,Neris,0.9838,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37803,6667,tcp
+2026-11-22T14:34:56.384629+00:00,Botnet,0.9975,Neris,0.9987,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33425,6667,tcp
+2026-11-22T14:34:56.434629+00:00,Botnet,0.9955,Menti,0.4734,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55282,6667,tcp
+2026-11-22T14:34:56.484629+00:00,Botnet,0.9952,Neris,0.9916,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37836,6667,tcp
+2026-11-22T14:34:56.534629+00:00,Botnet,0.9071,Neris,0.9429,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60954,6667,tcp
+2026-11-22T14:34:56.584629+00:00,Botnet,0.9107,Neris,0.8614,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60575,6667,tcp
+2026-11-22T14:34:56.634629+00:00,Botnet,0.7699,Neris,0.8647,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35578,6667,tcp
+2026-11-22T14:34:56.684629+00:00,Botnet,0.9945,Neris,0.9971,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57190,6667,tcp
+2026-11-22T14:34:56.734629+00:00,Botnet,0.9056,Neris,0.79,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34640,6667,tcp
+2026-11-22T14:34:56.784629+00:00,Botnet,0.9955,Rbot,0.4276,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47912,6667,tcp
+2026-11-22T14:34:56.834629+00:00,Botnet,0.9972,Neris,0.978,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44489,6667,tcp
+2026-11-22T14:34:56.884629+00:00,Botnet,0.9829,Neris,0.9891,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52418,6667,tcp
+2026-11-22T14:34:56.934629+00:00,Botnet,0.5665,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.327692,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,57559,80,tcp
+2026-11-22T14:34:56.984629+00:00,Botnet,0.764,Neris,0.8653,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39741,6667,tcp
+2026-11-22T14:34:57.034629+00:00,Botnet,0.998,Neris,0.9972,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37464,6667,tcp
+2026-11-22T14:34:57.084629+00:00,Botnet,0.8385,Neris,0.8851,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46978,6667,tcp
+2026-11-22T14:34:57.134629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37618,6667,tcp
+2026-11-22T14:34:57.184629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57915,6667,tcp
+2026-11-22T14:34:57.234629+00:00,Botnet,1.0,Neris,1.0,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49775,6667,tcp
+2026-11-22T14:34:57.284629+00:00,Botnet,0.994,Rbot,0.7342,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36243,6667,tcp
+2026-11-22T14:34:57.334629+00:00,Botnet,0.9662,Neris,0.8806,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42918,6667,tcp
+2026-11-22T14:34:57.384629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44320,6667,tcp
+2026-11-22T14:34:57.434629+00:00,Botnet,0.9971,Neris,0.9789,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39681,6667,tcp
+2026-11-22T14:34:57.484629+00:00,Botnet,0.9808,Menti,0.7559,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43897,6667,tcp
+2026-11-22T14:34:57.534629+00:00,Botnet,0.9931,Neris,0.9099,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50647,6667,tcp
+2026-11-22T14:34:57.584629+00:00,Botnet,0.9857,Neris,0.9891,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54181,6667,tcp
+2026-11-22T14:34:57.634629+00:00,Botnet,0.9387,Neris,0.9627,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,32854,6667,tcp
+2026-11-22T14:34:57.684629+00:00,Botnet,0.9607,Neris,0.9538,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49032,6667,tcp
+2026-11-22T14:34:57.734629+00:00,Botnet,0.9963,Neris,0.9938,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56681,6667,tcp
+2026-11-22T14:34:57.784629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53216,6667,tcp
+2026-11-22T14:34:57.834629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,60969,6667,tcp
+2026-11-22T14:34:57.884629+00:00,Botnet,0.9303,Neris,0.9543,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52457,6667,tcp
+2026-11-22T14:34:57.934629+00:00,Botnet,0.9827,Neris,0.4583,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37274,6667,tcp
+2026-11-22T14:34:57.984629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36228,6667,tcp
+2026-11-22T14:34:58.034629+00:00,Botnet,0.9511,Neris,0.9176,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34715,6667,tcp
+2026-11-22T14:34:58.084629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49405,6667,tcp
+2026-11-22T14:34:58.134629+00:00,Botnet,0.9913,Neris,0.9922,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33635,6667,tcp
+2026-11-22T14:34:58.184629+00:00,Botnet,0.8346,Neris,0.8793,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54065,6667,tcp
+2026-11-22T14:34:58.234629+00:00,Botnet,0.8977,Neris,0.9391,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39205,6667,tcp
+2026-11-22T14:34:58.284629+00:00,Botnet,0.8917,Neris,0.917,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37015,6667,tcp
+2026-11-22T14:34:58.334629+00:00,Botnet,0.9998,Neris,0.9997,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39671,6667,tcp
+2026-11-22T14:34:58.384629+00:00,Botnet,0.9857,Neris,0.9839,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40372,6667,tcp
+2026-11-22T14:34:58.434629+00:00,Botnet,0.9926,Neris,0.6605,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47158,6667,tcp
+2026-11-22T14:34:58.484629+00:00,Botnet,0.8445,Neris,0.9317,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51705,6667,tcp
+2026-11-22T14:34:58.534629+00:00,Botnet,0.9683,Neris,0.6127,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41951,6667,tcp
+2026-11-22T14:34:58.584629+00:00,Botnet,0.9474,Neris,0.9708,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58912,6667,tcp
+2026-11-22T14:34:58.634629+00:00,Botnet,0.9994,Neris,0.999,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51997,6667,tcp
+2026-11-22T14:34:58.684629+00:00,Botnet,0.9644,Neris,0.9599,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50015,6667,tcp
+2026-11-22T14:34:58.734629+00:00,Botnet,0.9699,Neris,0.9855,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50876,6667,tcp
+2026-11-22T14:34:58.784629+00:00,Botnet,0.7325,Neris,0.8295,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,48331,6667,tcp
+2026-11-22T14:34:58.834629+00:00,Botnet,0.732,Neris,0.8797,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51653,6667,tcp
+2026-11-22T14:34:58.884629+00:00,Botnet,0.9548,Neris,0.9614,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33672,6667,tcp
+2026-11-22T14:34:58.934629+00:00,Botnet,0.9795,Neris,0.7989,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40086,6667,tcp
+2026-11-22T14:34:58.984629+00:00,Benign,0.5998,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.326283,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,39944,53,tcp
+2026-11-22T14:34:59.034629+00:00,Benign,0.5763,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.667918,0.0,Suspicious,NOVEL_BEHAVIOR,192.168.1.2,192.168.1.3,52754,53,tcp
+2026-11-22T14:34:59.084629+00:00,Botnet,0.8688,Neris,0.9295,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35462,6667,tcp
+2026-11-22T14:34:59.134629+00:00,Botnet,0.9508,Neris,0.9629,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51143,6667,tcp
+2026-11-22T14:34:59.184629+00:00,Botnet,0.921,Neris,0.9897,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58085,6667,tcp
+2026-11-22T14:34:59.234629+00:00,Botnet,0.9843,Neris,0.9976,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45851,6667,tcp
+2026-11-22T14:34:59.284629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37687,6667,tcp
+2026-11-22T14:34:59.334629+00:00,Botnet,0.93,Neris,0.9542,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40705,6667,tcp
+2026-11-22T14:34:59.384629+00:00,Botnet,0.9772,Neris,0.9845,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34732,6667,tcp
+2026-11-22T14:34:59.434629+00:00,Botnet,0.7929,Neris,0.8152,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39168,6667,tcp
+2026-11-22T14:34:59.484629+00:00,Botnet,0.9935,Neris,0.9945,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52579,6667,tcp
+2026-11-22T14:34:59.534629+00:00,Botnet,0.9603,Neris,0.9448,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37972,6667,tcp
+2026-11-22T14:34:59.584629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40839,6667,tcp
+2026-11-22T14:34:59.634629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43937,6667,tcp
+2026-11-22T14:34:59.684629+00:00,Botnet,0.9421,Neris,0.9633,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35706,6667,tcp
+2026-11-22T14:34:59.734629+00:00,Botnet,0.9841,Neris,0.9867,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44664,6667,tcp
+2026-11-22T14:34:59.784629+00:00,Botnet,0.9774,Neris,0.9337,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46212,6667,tcp
+2026-11-22T14:34:59.834629+00:00,Botnet,0.9953,Menti,0.5071,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,56652,6667,tcp
+2026-11-22T14:34:59.884629+00:00,Botnet,0.9978,Neris,0.9972,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50074,6667,tcp
+2026-11-22T14:34:59.934629+00:00,Botnet,0.9623,Neris,0.9698,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,59212,6667,tcp
+2026-11-22T14:34:59.984629+00:00,Botnet,0.8675,Neris,0.9049,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,59399,6667,tcp
+2026-11-22T14:35:00.034629+00:00,Botnet,0.9935,Neris,0.9941,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55443,6667,tcp
+2026-11-22T14:35:00.084629+00:00,Botnet,0.9983,Neris,0.9988,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44399,6667,tcp
+2026-11-22T14:35:00.134629+00:00,Botnet,0.908,Neris,0.9455,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51730,6667,tcp
+2026-11-22T14:35:00.184629+00:00,Botnet,0.98,Neris,0.5191,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,54362,6667,tcp
+2026-11-22T14:35:00.234629+00:00,Botnet,0.8557,Neris,0.8664,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37890,6667,tcp
+2026-11-22T14:35:00.284629+00:00,Benign,0.5624,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Normal,-0.327363,0.0,Benign,BENIGN,192.168.1.2,192.168.1.3,47300,443,tcp
+2026-11-22T14:35:00.334629+00:00,Botnet,0.9935,Neris,0.6603,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,33997,6667,tcp
+2026-11-22T14:35:00.384629+00:00,Botnet,0.8998,Neris,0.9442,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55406,6667,tcp
+2026-11-22T14:35:00.434629+00:00,Botnet,0.9698,Virut,0.808,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,38950,6667,tcp
+2026-11-22T14:35:00.484629+00:00,Botnet,0.7598,Neris,0.8545,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37018,6667,tcp
+2026-11-22T14:35:00.534629+00:00,Botnet,0.9424,Neris,0.9686,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,47153,6667,tcp
+2026-11-22T14:35:00.584629+00:00,Botnet,0.944,Neris,0.9584,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44449,6667,tcp
+2026-11-22T14:35:00.634629+00:00,Botnet,0.9954,Menti,0.5564,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,34906,6667,tcp
+2026-11-22T14:35:00.684629+00:00,Botnet,0.9753,Neris,0.9799,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57219,6667,tcp
+2026-11-22T14:35:00.734629+00:00,Botnet,0.9972,Neris,0.978,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40257,6667,tcp
+2026-11-22T14:35:00.784629+00:00,Botnet,0.9934,Neris,0.994,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,37370,6667,tcp
+2026-11-22T14:35:00.834629+00:00,Botnet,0.9766,Neris,0.9761,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,45355,6667,tcp
+2026-11-22T14:35:00.884629+00:00,Botnet,0.9632,Neris,0.9654,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40049,6667,tcp
+2026-11-22T14:35:00.934629+00:00,Botnet,1.0,Neris,0.9998,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52606,6667,tcp
+2026-11-22T14:35:00.984629+00:00,Benign,0.8639,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.595968,0.0,Suspicious,NOVEL_BEHAVIOR,192.168.1.2,192.168.1.3,37446,80,tcp
+2026-11-22T14:35:01.034629+00:00,Botnet,0.9769,Neris,0.5073,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44843,6667,tcp
+2026-11-22T14:35:01.084629+00:00,Botnet,1.0,Neris,0.9998,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42441,6667,tcp
+2026-11-22T14:35:01.134629+00:00,Botnet,0.9562,Neris,0.9581,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35415,6667,tcp
+2026-11-22T14:35:01.184629+00:00,Botnet,0.9802,Neris,0.9818,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44870,6667,tcp
+2026-11-22T14:35:01.234629+00:00,Botnet,0.9898,Neris,0.6592,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,38687,6667,tcp
+2026-11-22T14:35:01.284629+00:00,Botnet,0.9888,Neris,0.9764,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39406,6667,tcp
+2026-11-22T14:35:01.334629+00:00,Botnet,0.9933,Neris,0.9869,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,52910,6667,tcp
+2026-11-22T14:35:01.384629+00:00,Botnet,0.9795,Neris,0.9948,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,51095,6667,tcp
+2026-11-22T14:35:01.434629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49917,6667,tcp
+2026-11-22T14:35:01.484629+00:00,Botnet,0.8101,Neris,0.8,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,36054,6667,tcp
+2026-11-22T14:35:01.534629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39954,6667,tcp
+2026-11-22T14:35:01.584629+00:00,Botnet,0.832,Neris,0.855,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39608,6667,tcp
+2026-11-22T14:35:01.634629+00:00,Botnet,0.994,Neris,0.6603,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50631,6667,tcp
+2026-11-22T14:35:01.684629+00:00,Botnet,0.9035,Neris,0.8494,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39997,6667,tcp
+2026-11-22T14:35:01.734629+00:00,Botnet,0.9971,Neris,0.9793,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40111,6667,tcp
+2026-11-22T14:35:01.784629+00:00,Botnet,0.9838,Neris,0.9884,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,46263,6667,tcp
+2026-11-22T14:35:01.834629+00:00,Botnet,0.9955,Rbot,0.3962,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,58705,6667,tcp
+2026-11-22T14:35:01.884629+00:00,Botnet,0.9395,Neris,0.9146,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,44259,6667,tcp
+2026-11-22T14:35:01.934629+00:00,Botnet,0.995,Neris,0.9905,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,41945,6667,tcp
+2026-11-22T14:35:01.984629+00:00,Botnet,0.9939,Neris,0.6602,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,55514,6667,tcp
+2026-11-22T14:35:02.034629+00:00,Benign,0.8817,Unknown,0.0,BENIGN_OR_LOW_CONFIDENCE,True,Anomaly,-0.596169,0.0,Suspicious,NOVEL_BEHAVIOR,192.168.1.2,192.168.1.3,48875,53,tcp
+2026-11-22T14:35:02.084629+00:00,Botnet,0.9842,Menti,0.7318,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,39892,6667,tcp
+2026-11-22T14:35:02.134629+00:00,Botnet,0.9969,Neris,0.998,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40764,6667,tcp
+2026-11-22T14:35:02.184629+00:00,Botnet,0.9763,Neris,0.4856,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,57695,6667,tcp
+2026-11-22T14:35:02.234629+00:00,Botnet,0.9749,Neris,0.9823,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50521,6667,tcp
+2026-11-22T14:35:02.284629+00:00,Botnet,0.9405,Neris,0.9574,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49600,6667,tcp
+2026-11-22T14:35:02.334629+00:00,Botnet,0.9402,Menti,0.7571,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,35492,6667,tcp
+2026-11-22T14:35:02.384629+00:00,Botnet,0.9742,Neris,0.9889,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,49212,6667,tcp
+2026-11-22T14:35:02.434629+00:00,Botnet,0.9976,Neris,0.9982,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,43440,6667,tcp
+2026-11-22T14:35:02.484629+00:00,Botnet,0.9526,Rbot,0.542,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,50042,6667,tcp
+2026-11-22T14:35:02.534629+00:00,Botnet,0.9822,Neris,0.6093,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,42194,6667,tcp
+2026-11-22T14:35:02.584629+00:00,Botnet,0.8937,Neris,0.9118,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,53535,6667,tcp
+2026-11-22T14:35:02.634629+00:00,Botnet,0.877,Neris,0.9609,BOTNET_HIGH_CONFIDENCE,False,Normal,0.0,0.0,Botnet,KNOWN_BOTNET,192.168.1.2,192.168.1.3,40178,6667,tcp

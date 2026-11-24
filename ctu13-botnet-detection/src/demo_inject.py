@@ -4,13 +4,16 @@ Live Demo Injector — feeds real CTU-13 Neris flow features into live_detection
 so hardware_monitor (T4) shows realistic KNOWN_BOTNET detections.
 
 Usage:
-    # Single injection level (50% botnet):
+    # ★ BEST FOR 5-MIN DEMO (flows trickle in live, 1/sec):
+    python src/demo_inject.py --stream --injection 60 --duration 300
+
+    # Single injection level (50% botnet), fast:
     python src/demo_inject.py --injection 50 --flows 1000
 
-    # Full sweep 0% → 100% (best for professor demo):
+    # Full sweep 0% → 100%:
     python src/demo_inject.py --sweep --flows 500
 
-    # Fast mode (no delay between flows):
+    # Fast mode (no delay):
     python src/demo_inject.py --injection 80 --flows 2000 --delay 0
 """
 from __future__ import annotations
@@ -157,21 +160,130 @@ def print_summary(metrics: list[dict]) -> None:
     print("=" * 60)
 
 
+def stream_live(engine: CascadeEngine,
+                neris: pd.DataFrame, benign: pd.DataFrame,
+                injection_pct: int, duration_s: int,
+                flow_interval: float = 1.0) -> None:
+    """
+    ★ LIVE DEMO MODE ★
+    Streams one classified flow per `flow_interval` seconds into live_detections.csv
+    for `duration_s` seconds total. hardware_monitor (T4) updates in real-time.
+
+    At 60% injection + 1s interval = ~300 flows over 5 min
+    Expected: ~170 KNOWN_BOTNET, ~30 NOVEL_BEHAVIOR, ~100 BENIGN
+    """
+    import random
+
+    # Pre-build a large shuffled pool so we don't repeat too early
+    pool_size = max(5000, duration_s * 2)
+    mix_df = build_mix(neris, benign, injection_pct, pool_size)
+
+    logger.info("=" * 60)
+    logger.info(f"★ STREAM MODE  injection={injection_pct}%  duration={duration_s}s  "
+                f"interval={flow_interval}s/flow")
+    logger.info(f"  Estimated flows: {int(duration_s / flow_interval)}  "
+                f"Expected KNOWN_BOTNET: ~{int(duration_s / flow_interval * injection_pct / 100 * 0.85)}")
+    logger.info("  hardware_monitor (T4) will show detections appearing live!")
+    logger.info("  Press Ctrl+C to stop early.")
+    logger.info("=" * 60)
+
+    # CSV header — overwrite file fresh
+    csv_cols = [
+        "timestamp",
+        "phase1_binary_prediction", "phase1_binary_confidence",
+        "phase1_family_prediction", "phase1_family_confidence",
+        "phase1_decision",
+        "phase2_executed", "phase2_prediction",
+        "phase2_anomaly_score", "phase2_threshold",
+        "final_label", "final_category", "explanation",
+        "src_ip", "dst_ip", "src_port", "dst_port", "proto",
+    ]
+
+    # Predict all in batch (fast), then stream results one-by-one with delay
+    logger.info("Pre-classifying pool (fast batch) ...")
+    results_df = engine.predict_batch(mix_df)
+    results_df  = add_network_columns(results_df, mix_df, injection_pct)
+    logger.info(f"Pool ready. Streaming to hardware_monitor now ...")
+
+    # Reset live_detections.csv
+    with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
+        results_df.head(0)[
+            [c for c in csv_cols if c in results_df.columns]
+        ].to_csv(f, index=False)  # write header only
+
+    counts = {"KNOWN_BOTNET": 0, "NOVEL_BEHAVIOR": 0, "BENIGN": 0, "UNCERTAIN": 0}
+    start   = time.time()
+    idx     = 0
+    total   = len(results_df)
+
+    try:
+        while time.time() - start < duration_s:
+            if idx >= total:
+                # Re-shuffle and loop — demo runs for full duration
+                results_df = results_df.sample(frac=1).reset_index(drop=True)
+                # Update timestamps so monitor shows fresh detections
+                results_df = add_network_columns(results_df, mix_df, injection_pct)
+                idx = 0
+
+            row = results_df.iloc[[idx]]
+            out_cols = [c for c in csv_cols if c in row.columns]
+
+            with open(OUT_CSV, "a", newline="", encoding="utf-8") as f:
+                row[out_cols].to_csv(f, index=False, header=False)
+
+            cat = row["final_category"].iloc[0]
+            counts[cat] = counts.get(cat, 0) + 1
+            elapsed = time.time() - start
+            remaining = max(0, duration_s - elapsed)
+
+            # Print status every 10 flows
+            if (idx + 1) % 10 == 0 or cat in ("KNOWN_BOTNET", "NOVEL_BEHAVIOR"):
+                bar = "█" * counts["KNOWN_BOTNET"] + "░" * counts["BENIGN"]
+                print(f"\r  [{elapsed:5.0f}s / {duration_s}s]  "
+                      f"KNOWN={counts['KNOWN_BOTNET']:4}  "
+                      f"NOVEL={counts['NOVEL_BEHAVIOR']:3}  "
+                      f"BENIGN={counts['BENIGN']:4}  "
+                      f"remaining={remaining:.0f}s   ", end="", flush=True)
+
+            idx     += 1
+            time.sleep(flow_interval)
+
+    except KeyboardInterrupt:
+        print("\n")
+        logger.info("Stream stopped by user.")
+
+    elapsed = time.time() - start
+    print("\n")
+    logger.info(f"Stream complete — {idx} flows in {elapsed:.0f}s")
+    logger.info(f"  KNOWN_BOTNET : {counts['KNOWN_BOTNET']}")
+    logger.info(f"  NOVEL_BEHAVIOR: {counts['NOVEL_BEHAVIOR']}")
+    logger.info(f"  BENIGN        : {counts['BENIGN']}")
+    tpr = counts["KNOWN_BOTNET"] / max(1, round(idx * injection_pct / 100)) * 100
+    logger.info(f"  TPR           : {tpr:.1f}%")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="BotnetLens Live Demo Injector — shows KNOWN_BOTNET in hardware_monitor"
     )
-    parser.add_argument("--injection", type=int, default=50,
+    parser.add_argument("--injection", type=int, default=60,
                         choices=[0,10,20,30,40,50,60,70,80,90,100],
-                        help="Single injection level (default 50%%)")
+                        help="Injection percentage (default 60%%)")
     parser.add_argument("--flows", type=int, default=1000,
-                        help="Flows per level (default 1000)")
+                        help="Flows per level in batch/sweep mode (default 1000)")
     parser.add_argument("--delay", type=float, default=2.0,
                         help="Seconds to pause between sweep levels (default 2)")
     parser.add_argument("--sweep", action="store_true",
                         help="Run full sweep 0%%→100%% with live updates to hardware_monitor")
     parser.add_argument("--append", action="store_true",
                         help="Append to existing live_detections.csv (default: overwrite)")
+    # ★ NEW: stream mode for live demo
+    parser.add_argument("--stream", action="store_true",
+                        help="★ LIVE DEMO: stream one flow/sec into hardware_monitor for --duration seconds")
+    parser.add_argument("--duration", type=int, default=300,
+                        help="Streaming duration in seconds (default 300 = 5 min)")
+    parser.add_argument("--interval", type=float, default=1.0,
+                        help="Seconds between streamed flows (default 1.0)")
     args = parser.parse_args()
 
     # Load engine & pools
@@ -180,7 +292,14 @@ def main():
     neris, benign = load_pools()
     OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
 
-    if args.sweep:
+    if args.stream:
+        # ★ BEST FOR DEMO — flows appear live in hardware_monitor
+        stream_live(engine, neris, benign,
+                    injection_pct=args.injection,
+                    duration_s=args.duration,
+                    flow_interval=args.interval)
+
+    elif args.sweep:
         logger.info("=" * 60)
         logger.info(f"SWEEP MODE  rates={INJECTION_RATES}  flows/step={args.flows}")
         logger.info("hardware_monitor (T4) will update after each step")
@@ -202,7 +321,7 @@ def main():
         logger.info(f"Sweep complete! Results written to {OUT_CSV}")
 
     else:
-        # Single level
+        # Single level batch
         m = run_level(engine, neris, benign,
                       injection_pct=args.injection,
                       n_flows=args.flows,
